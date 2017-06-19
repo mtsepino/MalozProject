@@ -254,7 +254,7 @@ background-color: #f6f7f9;
   font-size: 17px;
 }
 #contact {
-    background: #777;
+    background: #494b54;
     color: #fff;
 }
 #contact ::-webkit-input-placeholder {
@@ -348,8 +348,8 @@ background-color: #f6f7f9;
 }
 
 #copyright {
-  background: #F1F1F1;
-  color: #333;
+    background: #222;
+    color: #ffffff;
 }
 #copyright a {
   color: #333;
