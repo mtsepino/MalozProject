@@ -1,0 +1,28 @@
+.carousel-inner .active.left { left: -16.7%; }
+.carousel-inner .next        { left:  16.7%; }
+.carousel-inner .prev        { left: -16.7%; }
+.carousel-control.left,.carousel-control.right {background-image:none;}
+.item:not(.prev) {visibility: visible;}
+.item.right:not(.prev) {visibility: hidden;}
+.rightest{ visibility: visible;}
+
+.carousel-inner  img:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor: pointer;
+ 
+	-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+.carousel-inner {
+   margin-left: 9%;
+   width: 100%;
+   left: 0px;
+   display: block;
+   transition: all 800ms ease;
+    /* transform: translate3d(-370px, 0px, 0px); */
+}
