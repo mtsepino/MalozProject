@@ -942,3 +942,6 @@ h6 .small,
 .col-lg-6 {
     margin-bottom: 4px;
 }
+.panel.panel-primary:hover {
+    border-left: 3px solid #f6a821;
+}
