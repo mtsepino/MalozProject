@@ -215,18 +215,18 @@ background-color: #f6f7f9;
 .navbar-default .navbar-toggle {
     border-color: #34495e;
 }
-#hero-area {
+#home {
   /*background-image: url('../img/moon-dark-cloud-wallpaper.jpg');*/
   color: #fff;
   background-color: #222;
 }
-#hero-area .btn {
+#home .btn {
   margin-right: 20px;
 }
-#hero-area img {
+#home img {
   max-width: 100%;
 }
-#hero-area p {
+#home p {
   padding: 50px 0;
 }
 
@@ -640,22 +640,22 @@ section.dark .info-bar.info-bar-color div.row>div {
   border-radius: 20px;
 }
 @media(max-width:1024px){
-  #hero-area p {
+  #home p {
     padding: 0px 50px;
 }
 }
 @media(max-width:768px){
-  #hero-area p {
+  #home p {
     padding: 0px 38px;
 }
 }
 @media(max-width:414px){
-  #hero-area p {
+  #home p {
     padding: 0px 14px;
 }
 }
 @media(max-width:360px){
-  #hero-area p {
+  #home p {
     padding: 0px 4px;
 }
 }

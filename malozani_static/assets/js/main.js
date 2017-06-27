@@ -2,23 +2,24 @@
 
 $('#submit').click(function () {
 
-    $.post("assets/php/send.php", $(".contact-form").serialize(), function (response) {
-        $('#success').html(response);
-    });
-    return false;
+  $.post("assets/php/send.php", $(".contact-form").serialize(), function (response) {
+    $('#success').html(response);
+    console.log("send successfully", response);
+  });
+  return false;
 
 });
 drawlocation = () => {
-    var booysen = { lat: -26.23103, lng: 28.0225413 };
-    var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 17,
-        center: booysen
-    });
-    var marker = new google.maps.Marker({
-        position: booysen,
-        map: map
-    });
-    console.log('Map called')
+  var booysen = { lat: -26.23103, lng: 28.0225413 };
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 17,
+    center: booysen
+  });
+  var marker = new google.maps.Marker({
+    position: booysen,
+    map: map
+  });
+  console.log('Map called')
 
 }
 /*$('#myCarousel').carousel({
@@ -52,7 +53,7 @@ $('.autoplay').slick({
   autoplaySpeed: 2000,
   fade: false,
   cssEase: 'linear',
-  arrows:false,
+  arrows: false,
   responsive: [
     {
       breakpoint: 1024,
